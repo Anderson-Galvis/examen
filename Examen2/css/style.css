@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vw;
+}
+
+.menu-navegacion {
+    position: absolute;
+    right: 0%;
+    top: 2%;
+    display: flex;
+    height: 4vh;
+    width: 55vw;
+    justify-content: end;
+    margin-bottom: 8vw;
+}
+#tamanoImg{
+    width: 100vw;
+    height: 73vw;
+    padding-top: 4vw;
+    background-color: lightgray;
+    }
+.item {
+    display: inline-block;
+    margin-right: clamp(10px, 8.5vw, 60px);
+    font-size: clamp(1rem, 6vw, 1.1rem);
+}
+.conTexInicio{
+    background-color: white;
+    position: absolute;
+    width: 70vw;
+    height: 40vw;
+    right: 20vw;
+    top: 28vw;
+}
+.textoInicio{
+    position: absolute;
+    top: 7vw;
+    left: 4vw;
+}
+.vendeCasa{
+    position: absolute;
+    border: 1px solid black;
+    width: 30vw;
+    height:7vw;
+    background-color: rgb(233, 224, 224);
+    top: 30vw;
+    left: 4vw;
+    border-radius: 0.6vw;
+}
+.compraCasa{
+    position: absolute;
+    border: 1px solid black;
+    width: 30vw;
+    height:7vw;
+    background-color: rgb(19, 16, 16);
+    top: 30vw;
+    right: 4vw;
+    border-radius: 0.6vw;
+}
+.texVendoCasa{
+    position: absolute;
+    top: 31vw;
+    width: 28vw;
+    height: 2vw;
+    left: 5vw;
+
+}
+.texComproCasa{
+    position: absolute;
+    top: 31vw;
+    width: 26vw;
+    height: 2vw;
+    right: 4vw;
+    color: white;
+
+}
+#seccion-quieneSomos{
+    background-color: rgb(66, 60, 60);
+    height: 42vw;
+}
+.tamañoimgnosotros{
+    width: 40vw;
+    height: 40vw;
+    position: absolute;
+    left: 48vw;
+    top: 101vw;
+}
+.tituloquienesomos{
+    position: absolute;
+    top: 110vw;
+    font-family:sans-serif;
+    left: 15vw;
+    color: white;
+}
+.texquienesomos{
+        position: absolute;
+        top: 120vw;
+        font-family:sans-serif;
+        left: 14vw;
+        width: 26vw;
+        color: white;
+}
+.anuncios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between ;
+    justify-self: center;
+    align-content: inherit;
+    padding: 13vw;
+}
+.casazul{
+    width: 20vw;
+    height: 20vw;
+}
+.img3anuncio{
+    width: 20vw;
+    height: 20vw;
+    left: 10vw;
+}
+.prueba{
+    position: absolute;
+    top: 185vw;
+    width: 18vw;
+}
